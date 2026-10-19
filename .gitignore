@@ -1,0 +1,14 @@
+.env
+.env.*
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+build/
+dist/
+coverage/
+.next/
+*.log
+internconnect-backend/api-test.http

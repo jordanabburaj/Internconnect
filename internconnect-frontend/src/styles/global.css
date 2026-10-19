@@ -1,0 +1,56 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6; /* light gray */
+  color: #111827;
+}
+
+/* HEADINGS */
+h2, h3, h4 {
+  margin-bottom: 10px;
+}
+
+/* BUTTONS */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+/* SECONDARY BUTTON */
+button.secondary {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+button.secondary:hover {
+  background-color: #d1d5db;
+}
+
+/* INPUTS */
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
